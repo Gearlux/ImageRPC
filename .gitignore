@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+c++/.DS_Store
+
+.vscode
+docker-slim
+.DS_Store
+obj

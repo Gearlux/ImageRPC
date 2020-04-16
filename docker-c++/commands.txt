@@ -1,0 +1,9 @@
+docker run -i -t <image_name> /bin/bash
+
+# Install packages
+apt-get update
+apt-cache search <package>
+
+# apt-file will allow you to search files
+apt-get install apt-file
+apt-file update

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+// The rotate service definition.
+service Rotate {
+  // Rotates an image
+  rpc rot90 (image) returns (image) {}
+}
+
+message image {
+  bytes png = 1;
+}
